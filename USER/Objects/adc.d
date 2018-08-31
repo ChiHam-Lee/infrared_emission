@@ -1,0 +1,11 @@
+.\objects\adc.o: ..\Source\Drivers\adc\adc.c
+.\objects\adc.o: ..\Source\Drivers\adc\adc.h
+.\objects\adc.o: ..\Source\System\sys\sys.h
+.\objects\adc.o: ..\Source\System\sys\stm32f10x_map.h
+.\objects\adc.o: ..\Source\System\sys\stm32f10x_conf.h
+.\objects\adc.o: ..\Source\System\sys\stm32f10x_type.h
+.\objects\adc.o: ..\Source\System\sys\cortexm3_macro.h
+.\objects\adc.o: ..\Source\System\sys\stm32f10x_nvic.h
+.\objects\adc.o: ..\Source\Drivers\led\led.h
+.\objects\adc.o: ..\Source\System\delay\delay.h
+.\objects\adc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

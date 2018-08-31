@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\objects\stm32f10x.o"
+".\objects\main.o"
+".\objects\adc.o"
+".\objects\exti.o"
+".\objects\led.o"
+".\objects\usart.o"
+".\objects\delay.o"
+".\objects\sys.o"
+--strict --scatter ".\Objects\lightRED.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\lightRED.map" -o .\Objects\lightRED.axf

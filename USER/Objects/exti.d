@@ -1,0 +1,13 @@
+.\objects\exti.o: ..\Source\Drivers\exti\exti.c
+.\objects\exti.o: ..\Source\Drivers\exti\exti.h
+.\objects\exti.o: ..\Source\System\sys\sys.h
+.\objects\exti.o: ..\Source\System\sys\stm32f10x_map.h
+.\objects\exti.o: ..\Source\System\sys\stm32f10x_conf.h
+.\objects\exti.o: ..\Source\System\sys\stm32f10x_type.h
+.\objects\exti.o: ..\Source\System\sys\cortexm3_macro.h
+.\objects\exti.o: ..\Source\System\sys\stm32f10x_nvic.h
+.\objects\exti.o: ..\Source\Drivers\led\led.h
+.\objects\exti.o: ..\Source\Drivers\adc\adc.h
+.\objects\exti.o: ..\Source\System\delay\delay.h
+.\objects\exti.o: ..\Source\Drivers\usart\usart.h
+.\objects\exti.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

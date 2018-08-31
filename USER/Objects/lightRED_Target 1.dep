@@ -1,0 +1,71 @@
+Dependencies for Project 'lightRED', Target 'Target 1': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x508759AC)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Users\Lee\Desktop\1514050302-李梓涵-光照感应红外发射\光照感应控制红外发送\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 520" --pd "STM32F10X_MD SETA 1"--list .\listings\stm32f10x.lst --xref -o .\objects\stm32f10x.o --depend .\objects\stm32f10x.d)
+F (.\main.c)(0x5B1DE7A6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Source\System\delay -I ..\Source\System\sys -I ..\Source\Drivers\adc -I ..\Source\Drivers\exti -I ..\Source\Drivers\led -I ..\Source\Drivers\usart-I C:\Users\Lee\Desktop\1514050302-李梓涵-光照感应红外发射\光照感应控制红外发送\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Source\System\sys\sys.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332C)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332C)
+I (..\Source\Drivers\led\led.h)(0x5490332C)
+I (..\Source\System\delay\delay.h)(0x549D3C72)
+I (..\Source\Drivers\adc\adc.h)(0x558125E2)
+I (..\Source\Drivers\exti\exti.h)(0x4D2DA3C4)
+I (..\Source\Drivers\usart\usart.h)(0x5493D6C2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+F (..\Source\Drivers\adc\adc.c)(0x5AF3AFCE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Source\System\delay -I ..\Source\System\sys -I ..\Source\Drivers\adc -I ..\Source\Drivers\exti -I ..\Source\Drivers\led -I ..\Source\Drivers\usart-I C:\Users\Lee\Desktop\1514050302-李梓涵-光照感应红外发射\光照感应控制红外发送\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (..\Source\Drivers\adc\adc.h)(0x558125E2)
+I (..\Source\System\sys\sys.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332C)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332C)
+I (..\Source\Drivers\led\led.h)(0x5490332C)
+I (..\Source\System\delay\delay.h)(0x549D3C72)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE42D6)
+F (..\Source\Drivers\exti\exti.c)(0x5B1DE7A6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Source\System\delay -I ..\Source\System\sys -I ..\Source\Drivers\adc -I ..\Source\Drivers\exti -I ..\Source\Drivers\led -I ..\Source\Drivers\usart-I C:\Users\Lee\Desktop\1514050302-李梓涵-光照感应红外发射\光照感应控制红外发送\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\objects\exti.o --omf_browse .\objects\exti.crf --depend .\objects\exti.d)
+I (..\Source\Drivers\exti\exti.h)(0x4D2DA3C4)
+I (..\Source\System\sys\sys.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332C)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332C)
+I (..\Source\Drivers\led\led.h)(0x5490332C)
+I (..\Source\Drivers\adc\adc.h)(0x558125E2)
+I (..\Source\System\delay\delay.h)(0x549D3C72)
+I (..\Source\Drivers\usart\usart.h)(0x5493D6C2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+F (..\Source\Drivers\led\led.c)(0x5493DE1C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Source\System\delay -I ..\Source\System\sys -I ..\Source\Drivers\adc -I ..\Source\Drivers\exti -I ..\Source\Drivers\led -I ..\Source\Drivers\usart-I C:\Users\Lee\Desktop\1514050302-李梓涵-光照感应红外发射\光照感应控制红外发送\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\Source\Drivers\led\led.h)(0x5490332C)
+I (..\Source\System\sys\sys.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332C)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332C)
+F (..\Source\Drivers\usart\usart.c)(0x5B1DEDE2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Source\System\delay -I ..\Source\System\sys -I ..\Source\Drivers\adc -I ..\Source\Drivers\exti -I ..\Source\Drivers\led -I ..\Source\Drivers\usart-I C:\Users\Lee\Desktop\1514050302-李梓涵-光照感应红外发射\光照感应控制红外发送\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\Source\System\sys\sys.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332C)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332C)
+I (..\Source\Drivers\usart\usart.h)(0x5493D6C2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+F (..\Source\System\delay\delay.c)(0x549D438A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Source\System\delay -I ..\Source\System\sys -I ..\Source\Drivers\adc -I ..\Source\Drivers\exti -I ..\Source\Drivers\led -I ..\Source\Drivers\usart-I C:\Users\Lee\Desktop\1514050302-李梓涵-光照感应红外发射\光照感应控制红外发送\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332C)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332C)
+I (..\Source\System\delay\delay.h)(0x549D3C72)
+I (..\Source\System\sys\sys.h)(0x5490332C)
+F (..\Source\System\sys\sys.c)(0x549AB5BC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Source\System\delay -I ..\Source\System\sys -I ..\Source\Drivers\adc -I ..\Source\Drivers\exti -I ..\Source\Drivers\led -I ..\Source\Drivers\usart-I C:\Users\Lee\Desktop\1514050302-李梓涵-光照感应红外发射\光照感应控制红外发送\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\Source\System\sys\sys.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_map.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_conf.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_type.h)(0x5490332C)
+I (..\Source\System\sys\cortexm3_macro.h)(0x5490332C)
+I (..\Source\System\sys\stm32f10x_nvic.h)(0x5490332C)
